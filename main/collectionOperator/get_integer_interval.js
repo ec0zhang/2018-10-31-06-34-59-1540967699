@@ -4,7 +4,7 @@ function get_integer_interval(number_a, number_b) {
   //在这里写入代码
   var myArray = [];
   if (number_a === number_b) {
-    myArray = [number_a]
+    myArray = [number_a];
   }
   else if (number_a > number_b) {
     for (let i = number_b; i <= number_a; i++) {
